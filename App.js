@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import 'App.css';
+import './App.css';
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/firestore';
 import 'firebase/compat/auth';
@@ -51,7 +51,7 @@ function SignIn() {
   return (
     <>
       <button className="sign-in" onClick={signInWithGoogle}>Sign in with Google</button>
-      <p>Do not violate the community guidelines or you will be banned for life!</p>
+      <p>Testing react native firebase chat</p>
     </>
   )
 
